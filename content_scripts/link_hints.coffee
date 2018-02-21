@@ -629,7 +629,8 @@ LocalHints =
           visibleElements.push areasAndRects...
 
     # Check aria properties to see if the element should be ignored.
-    if (element.getAttribute("aria-hidden")?.toLowerCase() in ["", "true"] or
+    if (element.getAttribute("aria-hidden")?.toLowerCase() in ["", "true"] and
+        not Settings.get("showHiddenLinkHints") or
         element.getAttribute("aria-disabled")?.toLowerCase() in ["", "true"])
       return [] # This element should never have a link hint.
 
