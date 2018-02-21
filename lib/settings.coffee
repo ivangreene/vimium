@@ -131,6 +131,7 @@ Settings =
     linkHintCharacters: "sadfjklewcmpgh"
     linkHintNumbers: "0123456789"
     filterLinkHints: false
+    showHiddenLinkHints: false
     hideHud: false
     userDefinedLinkHintCss:
       """
