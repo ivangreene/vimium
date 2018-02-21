@@ -191,6 +191,7 @@ class ExclusionRulesOnPopupOption extends ExclusionRulesOption
 Options =
   exclusionRules: ExclusionRulesOption
   filterLinkHints: CheckBoxOption
+  showHiddenLinkHints: CheckBoxOption
   waitForEnterForFilteredHints: CheckBoxOption
   hideHud: CheckBoxOption
   keyMappings: TextOption
